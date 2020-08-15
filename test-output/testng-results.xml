@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21394" started-at="2020-08-09T19:32:06Z" finished-at="2020-08-09T19:32:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21394" started-at="2020-08-09T19:32:06Z" finished-at="2020-08-09T19:32:27Z">
+      <class name="academy.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:academy.HomePageTest@4516af24]" name="setUp" is-config="true" duration-ms="7500" started-at="2020-08-10T01:02:06Z" finished-at="2020-08-10T01:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@4516af24]" name="basePageNavigation" duration-ms="8399" started-at="2020-08-10T01:02:14Z" data-provider="getData" finished-at="2020-08-10T01:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@4516af24]" name="basePageNavigation" duration-ms="4791" started-at="2020-08-10T01:02:22Z" data-provider="getData" finished-at="2020-08-10T01:02:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:academy.HomePageTest@4516af24]" name="teardown" is-config="true" duration-ms="676" started-at="2020-08-10T01:02:27Z" finished-at="2020-08-10T01:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- academy.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
